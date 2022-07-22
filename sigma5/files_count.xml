@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>1</html_total>
+	<html_done>1</html_done>
+	<img>18</img>
+	<js>6</js>
+	<css>1</css>
+	<pdf/>
+	<doc/>
+	<xls/>
+	<ppt/>
+	<swf/>
+	<mp3/>
+	<mp4/>
+	<wav/>
+	<xml/>
+	<json/>
+	<txt/>
+	<fonts>4</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>false</is_pretty_url>
+	<is_ebn>false</is_ebn>
+	<email>niqgurr@gmail.com</email>
+	<theme_name>10127</theme_name>
+	<server_url_front_page>https://seoscrapers.com/wayback-downloader/scraping/files/demo/sigmaclient.info_niqgurr_gmail.com_2qvsdeuuhtx/</server_url_front_page>
+	<no_www_url>sigmaclient.info</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>http://web.archive.org/web/20211209103908/https://sigmaclient.info/</original_archive_url>
+	<final_archive_url>http://web.archive.org/web/20211209103908/https://sigmaclient.info/</final_archive_url>
+	<front_page_code_date>20211209103908</front_page_code_date>
+	<total_urls_from_api>5 pages</total_urls_from_api>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>false</scrape_other_captures>
+	<total_size>1808</total_size>
+</pagescount>

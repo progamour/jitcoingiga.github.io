@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+/*  first time i've ever used css lmao */
+@media screen and (min-width: 0px) and (max-width: 860px) {
+    .mobile-hide{ display: none; }
+  }
+
+body {margin:0;}
+* {box-sizing: border-box;}
+
+/* Style the tab */
+.tab {
+	float: left;
+	position: absolute;
+	height: 100%;
+    left: 0;
+	top: 0;
+    background-color: #191919;
+    width: 20%;
+    z-index: 2;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+      border-radius: 0%;
+    display: block;
+    background-color: inherit;
+    color: #202020;
+	background-color: #191919;
+    padding: 22px 16px;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+
+		border-color: #101010 !important;
+        z-index: 2;
+    overflow: hidden;
+      position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+
+  .tab button:hover{
+    border-radius: 0%;
+  }
+
+  .tab button::after{
+    border-radius: 0%;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 0px solid #191919;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+
+.navbar {
+    z-index: 3;
+    overflow: hidden;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+  }
+  .br {
+    display: block;
+    margin-bottom: 0em;
+}
+  
+.brmedium {
+    display: block;
+    margin-bottom: 17px;
+}
+  
+.brlarge {
+    display: block;
+    margin-bottom: 2.5em;
+}
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #191919;
+  }
+  
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #202020;
+    margin: 0;
+}
+
+.main {
+    padding-bottom: 0;
+    margin-top: 18px;
+    background-color: #191919;        
+    margin: 0;
+    padding-top: 55px;
+    z-index: 2;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+
+.more {
+    background-color: #202020;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .more {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+h1, h2, h3, h4, h5, p, a, button, img, image, br, i, span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left_bottom
+{
+    z-index: 2;
+    overflow: hidden;
+    /*position: absolute;
+    bottom: -20px;
+    left: 10px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    display: block;
+    padding: 10px;
+    margin-top: -50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+
+    font-size: 24px;
+    text-align: left;
+}
+
+.title
+{
+    /*position: absolute;
+    bottom: -20px;
+    left: 10px;*/
+
+    padding: 0;
+    margin-top: -50px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 5;
+
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.real-content
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -200px;
+}
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

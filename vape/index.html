@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Ape Ghost Client</title>
+    <meta name="description" content="Like bananas for Monkeys. Ape includes the highest quality Minecraft ghost client features, and will assure that you dominate every opponent.">
+    <meta http-equiv="refresh" content="0; url =
+    ../apes/index.html" />
+</head>

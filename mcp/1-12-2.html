@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <title>1.12.2 MCP Guide</title>
+        <meta name="description" content="Guide for 1.12.2 MCP.">
+        <link rel="stylesheet" href="../universal.css">
+    </head>
+    <body>
+        <p>Guide created by <a href="https://gist.github.com/Pokechu22">Pokechu22</a></p>
+        <p>It&#39;s possible to use create an MCP installation for versions of Minecraft where there hasn&#39;t been a full MCP release.  It takes a little bit of manual setup, but the end result is highly useful.</p>
+        <ol>
+        <li><p>Download and extract the most recent MCP build from <a href="http://www.modcoderpack.com/">http://www.modcoderpack.com/</a>.  (Currently, the latest build is <a href="http://www.modcoderpack.com/files/mcp940.zip">http://www.modcoderpack.com/files/mcp940.zip</a>)</p>
+        </li>
+        <li><p>Edit <code>version.cfg</code> in the <code>conf</code> folder, and change <code>ClientVersion</code> and <code>ServerVersion</code> to the version you want (for instance, 1.12.2).</p>
+        </li>
+        <li><p>Download the SRG zip for the version you want; these can generally be found at <code>http://mcpbot.bspk.rs/mcp/&lt;version&gt;/mcp-&lt;version&gt;-srg.zip</code> (for example, <a href="http://mcpbot.bspk.rs/mcp/1.11.2/mcp-1.11.2-srg.zip">http://mcpbot.bspk.rs/mcp/1.11.2/mcp-1.11.2-srg.zip</a>) or at <code>http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/&lt;version&gt;/mcp-&lt;version&gt;-srg.zip</code> (for example, <a href="http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.12.2/mcp-1.12.2-srg.zip">http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.12.2/mcp-1.12.2-srg.zip</a>).  (For 1.12.1 and 1.12.2, only the minecraftforge link works)</p>
+        </li>
+        <li><p>Extract that zip into the MCP <code>conf</code> folder, overwriting files and the contents of the <code>patches</code> folder.</p>
+        </li>
+        <li><p>Download the latest daily mappings from <a href="http://export.mcpbot.bspk.rs/">http://export.mcpbot.bspk.rs/</a>.  Even if they aren&#39;t for exactly the version you want, they will generally work.</p>
+        </li>
+        <li><p>Extract the mapping zip into the MCP <code>conf</code> folder, overwriting files.</p>
+        </li>
+        <li><p>Run MCP&#39;s <code>decompile.bat</code> as you normally would.  </p>
+        </li>
+        </ol>
+        <p>Note that for this to work, there must be a released SRG file for the version you want.  The SRG file is what converts obfuscated names into an intermediate step where names are (mostly) the same between versions; the mappings files convert those intermediate names into the names you see and are used to.</p>
+        <p>Note that as always, the MCP license applies, even for development builds.  Please read the <code>LICENSE.txt</code> included with MCP for more information about what you are and are not permitted to do.</p>
+        <p>An additional note: if you&#39;re using eclipse, you will need to manually fiddle with build paths due to updated libraries.  You will also need to attach the native libraries, found in <code>jars/versions/${VERSION}/${VERSION}-natives</code>, to the libraries (e.g. LWJGL) for the game to launch.</p>
+    </body>
+</html>

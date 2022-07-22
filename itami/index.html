@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2:400,600" rel="stylesheet">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.75" />
+	<link rel="icon" type="image/icon" href="Logo.svg">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
+	<title>Itami Client</title>
+	<meta name="og:image" itemprop="image" content="gui.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://itami.cf">
+	<meta property="og:site_name" content="">
+	<meta property="og:title" content=" ">
+	<meta property="og:description" content=" ">
+	
+	<style>
+	body {
+     background-image: url("files/background.svg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+	 height:200vh;
+	 -webkit-background-size: 100%;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+	 overflow-x: hidden;
+	 position: relative;
+	}
+	
+* { cursor: url(cursor.png) 10 8, default; }
+	</style>
+	<link rel="stylesheet" href="../universal.css">
+</head>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+  
+<script type="text/javascript">
+	eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+
+	$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+$(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+})
+
+</script>
+	<body>
+	<a href="#">
+	<img href="#" class="logo" src="files/Logo.svg" alt="Logo">
+	</a>
+	<div class="gui"><img src="gui.png"></div>
+	<div> 
+	<text class="title">Itami</text>
+	<text class="maindesc">Pain to your opponents</text>
+	<a type="button" class="button button1" href="Itami.exe" target="_blank">Download</a><a type="button" class="button button2" href="../discord.html" target="_blank">Discord</a>
+	<a href="media.html" class="media" target="_blank"><media>Media</a> *</media>
+	
+	<img src="files/Lock.svg" class="icon icon1">
+	<desc class="desc1">Most Trusted</desc>
+	
+	<img src="files/Star.svg" class="icon icon2">
+	<desc class="desc2">Best Free Client</desc>
+	
+	<img src="files/Staff.svg" class="icon icon3">
+	<desc class="desc3">Used by Everyone</desc>
+	</div>
+	
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="images/quote1.png" style="width:100%" class="nodrag">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/quote2.png" style="width:100%" class="nodrag">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/quote3.png" style="width:100%" class="nodrag">
+  </div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+ <br>
+<div class=”main-container”>
+ <footer>
+
+ &copy Itami 2020-2021, Designed by <a class="footertext" href="https://www.youtube.com/channel/UC8YWkKm_O4yellV6Dx3XxVg" target="_blank">fetix</a> & Sub.
+ </footer>
+</div>
+
+    </div>
+<script>
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+	</body>
+</html>
