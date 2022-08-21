@@ -1,0 +1,16 @@
+img {
+object-fit: scale-down; max-width: 100%
+}
+
+video {
+    object-fit: scale-down; max-width: 100%
+    }
+
+
+section {
+    object-fit: scale-down; max-width: 100%
+    }
+
+nav {
+    object-fit: scale-down; max-width: 100%
+    }

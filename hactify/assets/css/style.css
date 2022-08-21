@@ -561,4 +561,10 @@ body
     top: 538px;
     left: calc(50% - 280px/2 - 15px);
 }
+
+.nine
+{
+    top: 598px;
+    left: calc(50% - 280px/2 - 15px);
+}
 }
